@@ -1,0 +1,16 @@
+%% -*- mode: erlang; -*-
+{VSN,
+ [{"0.9.0",[{load_module,gproc_pool,brutal_purge,soft_purge,[]}]},
+  {"0.8.0",[{load_module,gproc,brutal_purge,soft_purge,[]},
+            {load_module,gproc_dist,brutal_purge,soft_purge,[]},
+            {load_module,gproc_lib,brutal_purge,soft_purge,[]},
+            {load_module,gproc_pool,brutal_purge,soft_purge,[]}
+           ]}
+ ],
+ [{"0.9.0",[{load_module,gproc_pool,brutal_purge,soft_purge,[]}]},
+  {"0.8.0",[{load_module,gproc,brutal_purge,soft_purge,[]},
+            {load_module,gproc_dist,brutal_purge,soft_purge,[]},
+            {load_module,gproc_lib,brutal_purge,soft_purge,[]},
+            {load_module,gproc_pool,brutal_purge,soft_purge,[]}
+           ]}
+ ]}.
